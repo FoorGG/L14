@@ -1,0 +1,6 @@
+---
+- name: Installing utils
+  yum:
+    name: "{{ web-packages }}"
+    state: present
+...
