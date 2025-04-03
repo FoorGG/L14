@@ -1,5 +1,5 @@
 ---
 web:
   packages:
-  - nginx
+    - nginx
 ...
