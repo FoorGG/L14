@@ -3,13 +3,8 @@ packages:
   - btop
   - nano
   - mc
-  - sesearch
-  - seinfo
-  - findcon
-  - getsebool
-  - setsebool
-  - audit2allow
-  - audit2why
-  - newrole
+  - setools-console
+  - policycoreutils-python
+  - policycoreutils-newrole
   - selinux-policy-mls
 ...
