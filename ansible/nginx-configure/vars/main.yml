@@ -5,7 +5,7 @@ web:
   firewalld:
     zone: FedoraServer
     ports:
-      - 80
-      - 18272
-      - 18273
+      - 80/tcp
+      - 18272/tcp
+      - 18273/tcp
 ...
