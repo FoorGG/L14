@@ -1,6 +1,6 @@
 ---
 
-- name: YUM UPDATE CACHE
+- name: Installing utils
   yum:
     name: "{{ packages }}"
     state: present

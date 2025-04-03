@@ -1,4 +1,6 @@
 ---
 packages:
   - btop
+  - nano
+  - mc
 ...
