@@ -3,4 +3,13 @@ packages:
   - btop
   - nano
   - mc
+  - sesearch
+  - seinfo
+  - findcon
+  - getsebool
+  - setsebool
+  - audit2allow
+  - audit2why
+  - newrole
+  - selinux-policy-mls
 ...
