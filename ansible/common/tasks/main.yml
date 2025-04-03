@@ -1,0 +1,7 @@
+---
+
+- name: YUM UPDATE CACHE
+  yum:
+    name: {{ packages }}
+    state: present
+...

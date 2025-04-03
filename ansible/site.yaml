@@ -1,0 +1,17 @@
+---
+
+- name: PRE_CONFIGURE
+  hosts: all
+  become: yes
+  gather_facts: true
+  roles:
+    - common
+
+#- name: Configuring NGINX
+#  hosts: Nginx
+#  become: yes
+#  gather_facts: true
+#  roles:
+#    - nginx-configure
+
+...
