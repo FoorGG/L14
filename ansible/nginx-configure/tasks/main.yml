@@ -3,4 +3,11 @@
   yum:
     name: "{{ web.packages }}"
     state: present
+
+- name: Startup Nginx
+  systemd:
+    name: "nginx"
+    state: started
+    enabled: yes
+    daemon_reload: yes
 ...

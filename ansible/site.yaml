@@ -7,7 +7,7 @@
   roles:
     - common
 
-- name: Installing NGINX
+- name: Installing/Configuring NGINX
   hosts: Nginx
   become: yes
   gather_facts: true
