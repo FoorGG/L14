@@ -10,4 +10,11 @@
     state: started
     enabled: yes
     daemon_reload: yes
+- name: FirewallD add ports
+  firewalld:
+    zone: "{{ web.firewalld.zone }}"
+    port: "{{ web.firewalld.ports }}"
+    permanent: yes
+    state: enabled
+    immediate: yes
 ...

@@ -2,4 +2,10 @@
 web:
   packages:
     - nginx
+  firewalld:
+    zone: FedoraServer
+    ports:
+      - 80
+      - 18272
+      - 18273
 ...
