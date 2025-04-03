@@ -1,5 +1,4 @@
 ---
-
 - name: Installing utils
   yum:
     name: "{{ packages }}"

@@ -7,11 +7,11 @@
   roles:
     - common
 
-#- name: Configuring NGINX
-#  hosts: Nginx
-#  become: yes
-#  gather_facts: true
-#  roles:
-#    - nginx-configure
+- name: Installing NGINX
+  hosts: Nginx
+  become: yes
+  gather_facts: true
+  roles:
+    - nginx-configure
 
 ...
