@@ -4,7 +4,7 @@ packages:
   - nano
   - mc
   - setools-console
-  - policycoreutils-python
+  - policycoreutils-python-utils
   - policycoreutils-newrole
   - selinux-policy-mls
 ...
