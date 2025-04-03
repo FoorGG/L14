@@ -2,6 +2,6 @@
 
 - name: YUM UPDATE CACHE
   yum:
-    name: {{ packages }}
+    name: "{{ packages }}"
     state: present
 ...
