@@ -1,0 +1,14 @@
+- hosts: all
+  become: true
+
+  tasks:
+    - name: Install packages using yum
+      ansible.builtin.yum:
+        name:
+          - bind
+          - bind-utils
+          - chrony
+          - policycoreutils-python-utils
+          - setools-console
+          - setroubleshoot-server
+        state: present
